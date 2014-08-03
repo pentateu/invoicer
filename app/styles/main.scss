@@ -1,0 +1,74 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+input.form-control.hours {
+  width: 80px;
+}
+
+.task-description{
+  .read-only-value{
+
+  }
+
+  .editable-value{
+    input {
+      width: 100%;
+      font-size: 21px;
+      font-weight: 200;
+      border: 1px solid lightgrey;
+      padding-left: 5px;
+      box-shadow:0px 0px 0px #FFFFFF;
+      -webkit-box-shadow: 0px 0px 0px #FFFFFF;
+      -moz-box-shadow: 0px 0px 0px #FFFFFF;       
+      outline: 0;
+    }
+  }
+
+  .action-buttons{
+    margin-top: 5px;
+    button {
+      margin-left:10px;
+    }
+  }
+}
+
+.task-date-time{
+
+
+}
+
+.task-time{
+
+
+}
+
+.task-edit{
+  span {
+    margin-right:20px;
+  }
+
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+
+
+}
